@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Test run completed]]>
+    </line>
+    <line>
+      <![CDATA[Done]]>
+    </line>
+  </reporter-output>
+  <suite name="DataDrivenBasics" duration-ms="64851" started-at="2019-04-05T13:50:29Z" finished-at="2019-04-05T13:51:34Z">
+    <groups>
+    </groups>
+    <test name="BankManagerLoginTest" duration-ms="8774" started-at="2019-04-05T13:50:29Z" finished-at="2019-04-05T13:50:38Z">
+      <class name="com.project1.testCases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.project1.testCases.BankManagerLoginTest@1ed6388a]" name="loginAsBankManager" duration-ms="6571" started-at="2019-04-05T13:50:29Z" finished-at="2019-04-05T13:50:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test run completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.project1.testCases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test name="AddCustomerTest" duration-ms="44592" started-at="2019-04-05T13:50:39Z" finished-at="2019-04-05T13:51:23Z">
+      <class name="com.project1.testCases.AddCustomerTest">
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.AddCustomerTest@20140db9]" name="addCustomerTest" duration-ms="15153" started-at="2019-04-05T13:50:39Z" data-provider="dp" finished-at="2019-04-05T13:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ammi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[452010.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.AddCustomerTest@20140db9]" name="addCustomerTest" duration-ms="14376" started-at="2019-04-05T13:50:54Z" data-provider="dp" finished-at="2019-04-05T13:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chitku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bablu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[542010.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.AddCustomerTest@20140db9]" name="addCustomerTest" duration-ms="14399" started-at="2019-04-05T13:51:09Z" data-provider="dp" finished-at="2019-04-05T13:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nanhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chinnu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[65888.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.project1.testCases.AddCustomerTest -->
+    </test> <!-- AddCustomerTest -->
+    <test name="OpenAccountTest" duration-ms="10706" started-at="2019-04-05T13:51:23Z" finished-at="2019-04-05T13:51:34Z">
+      <class name="com.project1.testCases.OpenAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.project1.testCases.OpenAccountTest@4145bad8]" name="setUp" is-config="true" duration-ms="24662" started-at="2019-04-05T13:50:04Z" finished-at="2019-04-05T13:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.OpenAccountTest@4145bad8]" name="openAccountTest" duration-ms="3652" started-at="2019-04-05T13:51:23Z" data-provider="dp" finished-at="2019-04-05T13:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ammi Jaan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.OpenAccountTest@4145bad8]" name="openAccountTest" duration-ms="3372" started-at="2019-04-05T13:51:27Z" data-provider="dp" finished-at="2019-04-05T13:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chitku bablu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="openAccountTest(java.lang.String, java.lang.String)[pri:0, instance:com.project1.testCases.OpenAccountTest@4145bad8]" name="openAccountTest" duration-ms="3366" started-at="2019-04-05T13:51:31Z" data-provider="dp" finished-at="2019-04-05T13:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nanhu chinnu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project1.testCases.OpenAccountTest@4145bad8]" name="tearDown" is-config="true" duration-ms="674" started-at="2019-04-05T13:51:34Z" finished-at="2019-04-05T13:51:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project1.testCases.OpenAccountTest -->
+    </test> <!-- OpenAccountTest -->
+  </suite> <!-- DataDrivenBasics -->
+</testng-results>
